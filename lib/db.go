@@ -3,7 +3,7 @@ package lib
 import (
 	"log"
 
-	"upper.io/db.v3"
+	db "upper.io/db.v3"
 	"upper.io/db.v3/mysql"
 )
 

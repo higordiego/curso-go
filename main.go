@@ -9,6 +9,5 @@ import (
 func main() {
 	e := r.App
 	e.Use(middleware.Logger())
-
 	e.Logger.Fatal(e.Start(":3000"))
 }
